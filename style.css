@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #FFE4CC;
+}
+
+header {
+  background-color: #FC560B;
+  height: 170px;
+}
+
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav h1 img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #114050;
+  font-weight: 800;
+  font-size: 37px;
+  font-family: 'Montserrat';
+
+}
+
+main {
+  padding-top: 50px;
+  text-align: center;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+main section article {
+  width: 344px;
+  height: 458px;
+  padding: 20px;
+  border-radius: 40px; 
+  background-color: #114050;
+  text-align: center;
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
+  gap: 50px;                  
+}
+
+.caixa-servico article {
+  height: 197.13px;   
+  width: auto;        
+  margin-bottom: 15px;
+}
+
+main section article h3 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  color: #FFE4CC;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #FC560B;
+  height: 187px;
+  padding: 0;             /* Removido o padding horizontal para ocupar toda a largura */
+  margin-top: 60px;
+  color: #114050;
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;            /* Alterado de 100vw para 100% para evitar barra de rolagem horizontal */
+  box-sizing: border-box;
+  position: relative;     /* Garante que o footer respeite o fluxo do documento */
+  left: 0;
+  right: 0;
+}
+
+footer section {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;      
+}
+
+
+footer address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 49px;
+  margin: 0;
+}
+
+footer address img {
+  height: 51.19px;
+  width: auto;
+}
+
+footer p {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 49px;
+  margin: 0;
+}
+
+.titulo-servicos {
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: #114050;
+  margin-bottom: 40px;
+  width: 1344px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.caixa-servico {
+  width: 1344px;
+  height: 315px;
+  background-color: #114050;
+  border-radius: 40px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  color: #FFE4CC;
+  box-sizing: border-box;
+}
+
+.caixa-servico img {
+  height: 255px;
+  border-radius: 20px;
+}
+
+.caixa-servico article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.caixa-servico h3 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.caixa-servico p {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  line-height: 1.6;
+  max-width: 700px;
+  font-weight: 400;
+}
+
+.contato {
+  width: 1344px;
+  background-color: #114050;
+  border-radius: 40px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 60px;
+  color: #F5F5F5;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.contato article {
+  flex: 1;
+}
+
+.contato article:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.contato h3 {
+  font-size: 50px;
+  margin-bottom: 10px; /* Reduziu o espaço abaixo do título */
+  font-weight: 800;
+  color: #F5F5F5;
+}
+
+.contato h4 {
+  font-size: 50px;
+  margin: 10px 0 5px 0; /* Reduziu o espaço acima e abaixo */
+  font-weight: 800;
+}
+
+.contato p {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.contato img {
+  height: 290px;
+  margin-bottom: 20px;
+}
